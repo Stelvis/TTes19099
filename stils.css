@@ -1,0 +1,85 @@
+#upmenu li {
+  display: inline;
+  font-size: 20px;
+  padding-left: 148px;
+  padding-right: 30px;
+}
+#upmenu{
+  background-color: black;
+  position:fixed;
+  margin-left: auto;
+  margin-right:auto;
+  top:0px;
+  left:0px;
+  right:0px;
+}
+a.hoverot  {
+  text-decoration: none;
+  color:white;
+}
+.sakums {
+  background-image: url("bg.jpg");
+  height: 200px;
+}
+/* Some part of the document must demonstrate how two or more classes can be formatted using CSS.*/
+.receptes , .intro {
+  padding-left: 200px;
+  border-style: solid;
+}
+body{
+background-color: rgba(152, 114, 82, 0.4);
+}
+h2{
+  text-align: center;
+}
+body{
+  background-image: url("greek-vase.png");
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kluda , #kluda2 , #kluda3{
+  display:inline;
+}
+#papildusinfo{
+  display:none;
+  text-align: center;
+}
+#poga{
+  padding-top: 10px;
+  text-align: center;
+}
+#JSDOM{
+  text-align: center;
+}
+.bilde {
+float:right;
+padding-right: 200px;
+
+}
+.intro{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: auto;
+
+}
+.aprekinipoga{
+  background-color: black;
+  color:white;
+  font-size:16px;
+  border-radius: 8px;
+}
+a.hoverot:hover{
+  color:green;
+}
+
+@media print {
+  body {
+    background-color:black;
+  }
+}
+/* media querry */
+@media print {
+    #upmenu {
+        display: none;
+    }
+}
